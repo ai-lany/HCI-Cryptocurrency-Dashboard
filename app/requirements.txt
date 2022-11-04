@@ -1,0 +1,11 @@
+rich
+flask_cors
+flask
+streamlit
+pymongo
+requests
+pandas
+numpy
+bokeh
+altair
+rich
