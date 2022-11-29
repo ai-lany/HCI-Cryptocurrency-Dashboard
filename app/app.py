@@ -5,50 +5,59 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import utils
+import os
 
 API_KEY = '5ae705c7-4dbf-4eba-ae61-183c137c4400'
 COUNTRIES_URL = 'https://api.airvisual.com/v2/countries?key={}'.format(API_KEY)
+
+
+
 @st.cache
 def getCountries():
     response = requests.get(COUNTRIES_URL).json()
+    print(response)
     return response
 
 @st.cache
 def getStates(country):
     STATES_URL = 'https://api.airvisual.com/v2/states?country={}&key={}'.format(country,API_KEY)
     response = requests.get(STATES_URL).json()
+    print(response)
     return response
 
 @st.cache
 def getCities(country, state):
-    CITY_URL = 'https://api.airvisual.com/v2/cities?state={0}&country={1}&key={{API_KEY}}'.format(state,country,API_KEY)
+    CITY_URL = 'https://api.airvisual.com/v2/cities?state={}&country={}&key={}'.format(state,country,API_KEY)
     print(CITY_URL)
     response = requests.get(CITY_URL).json()
     return response
 
 @st.cache
 def getAirQuality(country, state, city):
-    AIRQUALITY_URL = 'https://api.airvisual.com/v2/city?city={0}&state={1}&country={2}&key={{API_KEY}}'.format(city, state, country, API_KEY)
+    AIRQUALITY_URL = 'https://api.airvisual.com/v2/city?city={}&state={}&country={}&key={}'.format(city, state, country, API_KEY)
     response = requests.get(AIRQUALITY_URL).json()
     return response
 
 
-
+def getDataFromFile(fileName):
+    f = open(fileName)
+    return json.load(f)
 
 
 st.title('Air Quality')
 
 COUNTRIES = getCountries()
 Countries = list[dict[str,str]]
+if COUNTRIES['status'] != 'success':
+    COUNTRIES = getDataFromFile('countries.JSON')
 COUNTRIES_LIST:Countries = COUNTRIES['data']  
+
 country =  st.selectbox(
             'Country',
             [c['country'] for c in COUNTRIES_LIST]
         )
 
-
 STATES = getStates(country)
-print(STATES)
 if STATES['status'] == 'success':
     state =  st.selectbox(
                 'State',

@@ -1,0 +1,437 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "country": "Afghanistan"
+    },
+    {
+      "country": "Albania"
+    },
+    {
+      "country": "Algeria"
+    },
+    {
+      "country": "Andorra"
+    },
+    {
+      "country": "Angola"
+    },
+    {
+      "country": "Argentina"
+    },
+    {
+      "country": "Armenia"
+    },
+    {
+      "country": "Australia"
+    },
+    {
+      "country": "Austria"
+    },
+    {
+      "country": "Azerbaijan"
+    },
+    {
+      "country": "Bangladesh"
+    },
+    {
+      "country": "Belgium"
+    },
+    {
+      "country": "Belize"
+    },
+    {
+      "country": "Bermuda"
+    },
+    {
+      "country": "Bolivia"
+    },
+    {
+      "country": "Bosnia Herzegovina"
+    },
+    {
+      "country": "Brazil"
+    },
+    {
+      "country": "Bulgaria"
+    },
+    {
+      "country": "Cambodia"
+    },
+    {
+      "country": "Canada"
+    },
+    {
+      "country": "Cape Verde"
+    },
+    {
+      "country": "Central African Republic"
+    },
+    {
+      "country": "Chad"
+    },
+    {
+      "country": "Chile"
+    },
+    {
+      "country": "China"
+    },
+    {
+      "country": "Colombia"
+    },
+    {
+      "country": "Costa Rica"
+    },
+    {
+      "country": "Croatia"
+    },
+    {
+      "country": "Cyprus"
+    },
+    {
+      "country": "Czech Republic"
+    },
+    {
+      "country": "Democratic Republic of the Congo"
+    },
+    {
+      "country": "Denmark"
+    },
+    {
+      "country": "Ecuador"
+    },
+    {
+      "country": "Egypt"
+    },
+    {
+      "country": "El Salvador"
+    },
+    {
+      "country": "Estonia"
+    },
+    {
+      "country": "Ethiopia"
+    },
+    {
+      "country": "Finland"
+    },
+    {
+      "country": "France"
+    },
+    {
+      "country": "French Polynesia"
+    },
+    {
+      "country": "Gabon"
+    },
+    {
+      "country": "Gambia"
+    },
+    {
+      "country": "Georgia"
+    },
+    {
+      "country": "Germany"
+    },
+    {
+      "country": "Ghana"
+    },
+    {
+      "country": "Greece"
+    },
+    {
+      "country": "Grenada"
+    },
+    {
+      "country": "Guatemala"
+    },
+    {
+      "country": "Guyana"
+    },
+    {
+      "country": "Honduras"
+    },
+    {
+      "country": "Hong Kong SAR"
+    },
+    {
+      "country": "Hungary"
+    },
+    {
+      "country": "Iceland"
+    },
+    {
+      "country": "India"
+    },
+    {
+      "country": "Indonesia"
+    },
+    {
+      "country": "Iraq"
+    },
+    {
+      "country": "Ireland"
+    },
+    {
+      "country": "Israel"
+    },
+    {
+      "country": "Italy"
+    },
+    {
+      "country": "Ivory Coast"
+    },
+    {
+      "country": "Jamaica"
+    },
+    {
+      "country": "Japan"
+    },
+    {
+      "country": "Jersey"
+    },
+    {
+      "country": "Jordan"
+    },
+    {
+      "country": "Kazakhstan"
+    },
+    {
+      "country": "Kenya"
+    },
+    {
+      "country": "Kosovo"
+    },
+    {
+      "country": "Kuwait"
+    },
+    {
+      "country": "Kyrgyzstan"
+    },
+    {
+      "country": "Laos"
+    },
+    {
+      "country": "Latvia"
+    },
+    {
+      "country": "Lebanon"
+    },
+    {
+      "country": "Liechtenstein"
+    },
+    {
+      "country": "Lithuania"
+    },
+    {
+      "country": "Luxembourg"
+    },
+    {
+      "country": "Macao SAR"
+    },
+    {
+      "country": "Madagascar"
+    },
+    {
+      "country": "Malaysia"
+    },
+    {
+      "country": "Maldives"
+    },
+    {
+      "country": "Mali"
+    },
+    {
+      "country": "Malta"
+    },
+    {
+      "country": "Mexico"
+    },
+    {
+      "country": "Moldova"
+    },
+    {
+      "country": "Mongolia"
+    },
+    {
+      "country": "Montenegro"
+    },
+    {
+      "country": "Myanmar"
+    },
+    {
+      "country": "Namibia"
+    },
+    {
+      "country": "Nepal"
+    },
+    {
+      "country": "Netherlands"
+    },
+    {
+      "country": "New Caledonia"
+    },
+    {
+      "country": "New Zealand"
+    },
+    {
+      "country": "Nicaragua"
+    },
+    {
+      "country": "Niger"
+    },
+    {
+      "country": "Nigeria"
+    },
+    {
+      "country": "North Macedonia"
+    },
+    {
+      "country": "Norway"
+    },
+    {
+      "country": "Oman"
+    },
+    {
+      "country": "Pakistan"
+    },
+    {
+      "country": "Palestinian Territory"
+    },
+    {
+      "country": "Panama"
+    },
+    {
+      "country": "Papua New Guinea"
+    },
+    {
+      "country": "Peru"
+    },
+    {
+      "country": "Philippines"
+    },
+    {
+      "country": "Poland"
+    },
+    {
+      "country": "Portugal"
+    },
+    {
+      "country": "Puerto Rico"
+    },
+    {
+      "country": "Qatar"
+    },
+    {
+      "country": "Romania"
+    },
+    {
+      "country": "Russia"
+    },
+    {
+      "country": "Rwanda"
+    },
+    {
+      "country": "San Marino"
+    },
+    {
+      "country": "Saudi Arabia"
+    },
+    {
+      "country": "Senegal"
+    },
+    {
+      "country": "Serbia"
+    },
+    {
+      "country": "Singapore"
+    },
+    {
+      "country": "Slovakia"
+    },
+    {
+      "country": "Slovenia"
+    },
+    {
+      "country": "South Africa"
+    },
+    {
+      "country": "South Korea"
+    },
+    {
+      "country": "Spain"
+    },
+    {
+      "country": "Sri Lanka"
+    },
+    {
+      "country": "Sudan"
+    },
+    {
+      "country": "Suriname"
+    },
+    {
+      "country": "Sweden"
+    },
+    {
+      "country": "Switzerland"
+    },
+    {
+      "country": "Syria"
+    },
+    {
+      "country": "Taiwan"
+    },
+    {
+      "country": "Tajikistan"
+    },
+    {
+      "country": "Thailand"
+    },
+    {
+      "country": "Togo"
+    },
+    {
+      "country": "Trinidad and Tobago"
+    },
+    {
+      "country": "Turkey"
+    },
+    {
+      "country": "Turkmenistan"
+    },
+    {
+      "country": "U.S. Virgin Islands"
+    },
+    {
+      "country": "USA"
+    },
+    {
+      "country": "Uganda"
+    },
+    {
+      "country": "Ukraine"
+    },
+    {
+      "country": "United Arab Emirates"
+    },
+    {
+      "country": "United Kingdom"
+    },
+    {
+      "country": "Uruguay"
+    },
+    {
+      "country": "Uzbekistan"
+    },
+    {
+      "country": "Venezuela"
+    },
+    {
+      "country": "Vietnam"
+    },
+    {
+      "country": "Zambia"
+    }
+  ]
+}
