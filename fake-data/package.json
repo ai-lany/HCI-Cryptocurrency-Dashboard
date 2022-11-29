@@ -1,7 +1,0 @@
-{
-    "name": "hci",
-    "type": "commonjs",
-    "dependencies": {
-        "faker": "^5.5.3"
-    }
-}
