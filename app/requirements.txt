@@ -1,8 +1,4 @@
 rich
-flask_cors
-flask
 streamlit
 requests
-pandas
-numpy
 streamlit-folium
